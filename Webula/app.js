@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-
 // Access the API key from the environment variable
 const apiKey = process.env.API_KEY;
 
@@ -16,4 +14,4 @@ fetch('https://api.webflow.com/v2/sites', options)
   .then(response => console.log(response))
   .catch(err => console.error(err));
 
-}
+
