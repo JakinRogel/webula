@@ -1,5 +1,5 @@
 // Access the API key from the environment variable
-const apiKey = process.env.API_KEY;
+const apiKey = "48e6c1bf4e2e5fb77648e7bde2f72e8d7549d6d41f621baa1b2c8717ebb139b5";
 
 const options = {
   method: 'GET',
